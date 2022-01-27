@@ -1,0 +1,87 @@
+/* News */
+
+#NewsTitle {
+    font-family: 'Poiret One', cursive;
+    font-size: 100px;
+    text-align: center;
+    background-color: #4D0026;
+    color: #fff;
+}
+
+/* main & posts */
+
+.shitmain .col {
+    width: 30%
+}
+
+.post .post-img {
+    width: 100%;;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.user-info img {
+    width: 2.5rem;
+    border-radius: 2rem;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+.user-info span {
+    margin-left: 0.5rem;
+    color: gray;
+}
+
+.user-info span:nth-child(4) {
+    color: crimson;
+}
+
+.post p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    opacity: 0.6;
+    text-align: justify;
+}
+
+.post {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    margin-top: 3rem;
+    border-radius: 1rem;
+}
+
+.post-info {
+    padding: 1rem;
+}
+
+.shitmain {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.875rem;
+    margin-top: -1.5rem;
+    background-color: #4D0026;
+    font-family: 'Poiret One', cursive;
+    font-weight: bolder;
+    flex-wrap: wrap;
+}
+
+.post-info h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .shitmain {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .shitmain .col {
+        width: 100%;
+    }
+}

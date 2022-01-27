@@ -1,0 +1,418 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Trailer */
+
+
+
+
+.TrailerText {
+    position: absolute;
+    z-index: 1000;
+    padding-left: 50rem;
+    padding-top: 25rem;
+}
+
+
+
+.trailercontainer {
+    position: relative;
+}
+
+#Trailer {
+    position: relative;
+    opacity:1;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    display: block;
+    filter: blur(5px);
+}
+
+#volumeon {
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.fk {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#volumeoff {
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 160px;
+}
+
+.wave .shape-fill {
+    fill: #3B27BA;
+}
+
+/* Our Mission */
+
+.OurMission {
+    position: relative;
+    background-color: #3B27BA;
+}
+
+.MissionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    justify-content: space-around;
+    padding-right: 200px;
+    padding-bottom: 100px;
+}
+
+#MissionText {
+    color: #13CA91;
+    font-family: 'Poiret One', cursive;
+    width: 50%;
+    text-align: center;
+}
+
+#MissionParagraph {
+    font-size: 25;
+}
+
+.MissionList {
+    color: #13CA91;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    list-style: none;
+    line-height: 300%;
+    padding-bottom: 2rem;
+}
+
+#MissionPhoto {
+    display: flex;
+    justify-content: center;
+}
+
+
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #2D142C;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.custom-shape-divider-bottom-1642881828 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1642881828 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 160px;
+}
+
+.custom-shape-divider-bottom-1642881828 .shape-fill {
+    fill: #E847AE;
+}
+
+/* Team */
+
+#HomepageTeam {
+    display: flex;
+    padding-top: 200px;
+    background-color: #E847AE;
+    justify-content: center;
+    justify-content: space-around;
+    padding-bottom: 200px;
+    position: relative;
+}
+
+.button-64 {
+    align-items: center;
+    background-image: linear-gradient(144deg,#3B27BA, #E847AE 50%,#13CA91);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+}
+
+.button-64 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-64:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+#HomepageTeamTXT {
+    font-family: 'Poiret One', cursive;
+    color:#fff;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#HomepageTeamTXT p {
+    padding: 10px;
+}
+
+#HomepageTeamPHT {
+    padding-right: 235px;
+}
+
+#TeamLinkHP {
+    font-size: 30px;
+}
+
+.ching {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.ching svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 160px;
+}
+
+.ching .shape-fill {
+    fill: #ff9472;
+}
+
+
+/* Roadmap */
+
+.CONT2 {
+    width: 100%;
+    background-color: #ff9472;
+    padding-bottom: 30px;
+}
+
+.Roadmapcont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    background: #ff9472;
+}
+
+.Roadmapcont a {
+    font-family: 'Bebas Neue', cursive;
+}
+
+#RoadmapHP {
+    border: none;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    color: #02db97;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #E847AE;
+    padding: 17px 60px;
+    margin: 0 auto;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+  }
+  
+  #RoadmapHP a {
+    position: relative; 
+    z-index: 1;
+  }
+  
+  #RoadmapHP:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 490%;
+    width: 140%;
+    background: #3B27BA;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+    transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  }
+  
+  #RoadmapHP:hover:after {
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  }
+  
+  #RoadmapHP a:hover {
+      color:#02db97;
+  }
+
+  #RoadmapHP a {
+      color:#13ca91;
+      text-decoration: none;
+  }
+
+.Roadmapfatcont {
+    width: 50%;
+    height: 30rem;
+    padding-top: 5rem;
+}
+
+.fattestcont {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff9472;
+}
+
+.imgco {
+    padding-right: 300px;
+    padding-top: 30px;
+}
+
+.imgco img {
+    border-radius: 5px;
+}
+
+
+/* Phone */
+
+@media screen and (max-width:768px){
+    #MissionText {
+        width: 100%;
+    }
+
+    .MissionContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 100px;
+        justify-content: space-around;
+        padding-left: 8rem;
+        padding-bottom: 100px;
+        width: 100%;
+        height: 80rem;
+    }
+
+    #HomepageTeamTXT {
+        width: 100%;
+    }
+
+    #HomepageTeam {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 100px;
+        justify-content: space-around;
+        padding-left: 1rem;
+        padding-bottom: 100px;
+        width: 100%;
+        height: 60rem;
+    }
+
+    #HomepageTeamPHT {
+        padding-right: 0px;
+    }
+
+    .TrailerText {
+        position: absolute;
+        z-index: 1000;
+        padding-left: 12rem;
+        padding-top: 7rem;
+    }
+
+    .button-28 {
+        font-size: 10px;
+    }
+
+    .fattestcont {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Roadmapfatcont {
+        padding-top: 50px;
+    }
+
+    .imgco {
+        padding-right: 0px;
+        padding-bottom: 30px;
+    }
+}
+  
+
+
+  

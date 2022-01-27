@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metaverse Project Waitlist</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-firestore.js"></script>
+
+    <script src="main.js"></script>
+
+</head>
+<body>
+    
+    <section id="Cock">
+        <div class="FatContainer">
+            <div class="container">
+                <img src="MetaverseBackground.png" alt="logo" width="350" height="350">
+                <div class="container>
+                    <form action="">
+                        <div class="form-group">
+                            <label id="label" for="email"style="text-align:center;display: block;">Join The Mail List and be notified of launch dates, updates, and much more!</label>
+                           <br>
+                            <input type="email" id="email" name="email"placeholder="Your email..."style="color: rgb(248, 3, 36);text-align:center; font-family: 'Poiret One', cursive;
+                            font-weight: bold;">
+                        </div>
+    
+                        <button id="submit"type="submit"onClick="addEmail()">Join!</button>
+                        <br><br><br>
+                        <h4 id = "info"style="color:rgb(250, 129, 92);text-align:center;bottom:0;position:relative;layer=50;z-index:10;cursor: pointer; font-family: 'Poiret One', cursive;
+                        font-weight: bold; "onClick="openModal()">What is this?</h4>
+                            <Br>
+                    </form>
+                </div>
+                <div id="status" style="color:white;"></div>
+                <button id="return"type="submit"onClick="location.reload();"style="display:none;">Return!</button>
+
+            </div>
+        </div>
+        <br>
+        <div class="FatContainer" style="display:none;"id="infoModal">
+            <div class="container">
+                <div class="container2"style="overflow:auto;background-color: rgba(255, 0, 30, 1); font-family: 'Poiret One', cursive;
+                font-weight: bold;">
+                    <br><br><br>
+                    <h1 style="color:white;"<b>Wheres the website?</b></h1>
+                    <h4 style="color:white;text-align: center;">The website and much of the project is still in development. You can join our discord server for updates</h4>
+                    <br>
+                    <h1 style="color:white;text-align:center;"<b>When will the project/website/nfts be released?</b></h1>
+                    <h4 style="color:white;text-align: center;">We're planning on launching the nfts presale by early Q2 of 2022, and the completion of the project to be around Mid-End Q1 of 2023. The website however will be up anyday now! Join our social media sites for more information</h4>
+                    <Br>
+                    <h1 style="color:white;text-align: center;"<b>What will the price of each tile be?</b></h1>
+                    <h4 style="color:white;text-align: center;">We'll be launching 25000 unique nfts (5000 of each biome) at the price of $50 USD each, or 0.013 ETH</h4>
+                    <br>
+                    <br><br>
+                    <h4 id = "info"style="color:#fff;text-align:center;bottom:0;layer=50;z-index:10;cursor: pointer; background-color: rgba(255, 100, 100, 1); border-radius: 8px;"onClick="openModal()">Go back!</h4>
+
+                </div>
+            </div>
+        </div>
+
+        <video src="METAVERSEBACKGROUND.mp4" muted loop autoplay id="Trailer"></video>
+
+        <div id="links" class="container1">
+            <div class="item"><a href="https://www.tiktok.com/@metafinity"target="_blank"><img src="twitter_64px.png" alt="Tiktok logo" style="cursor: pointer;"width="50px" height="50px"></a></div>
+            <div class="item"><a href="https://twitter.com/MetaFinityTech" target="_blank"><img src="tiktok_64px.png" alt="Twitter logo" style="cursor: pointer;"width="50px" height="50px"></a></div>
+            <div class="item"><a href="https://discord.gg/AswCCDNqvZ"target="_blank"><img src="discord_100px.png" alt="Instagram logo" style="cursor: pointer;"width="50px" height="50px"></a></div>
+        </div>
+
+    </section>
+</body>
+</html>
