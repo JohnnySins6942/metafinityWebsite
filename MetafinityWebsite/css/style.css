@@ -133,15 +133,6 @@ nav{
 
 /* footer */
 
-.sciimg {
-    width: 40px;
-}
-
-.sciimg:hover {
-    background: #c9c4c7;
-    border-radius: 0.3rem;
-}
-
 .footer {
     position: relative;
     width: 100%;
@@ -192,7 +183,6 @@ nav{
 
 .sci {
     margin-top: 20px;
-    display: flex;
 }
 
 .sci li {
