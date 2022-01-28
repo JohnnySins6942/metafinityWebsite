@@ -4,61 +4,114 @@
     box-sizing: border-box;
 }
 
-
-#Metaback {
-    border-radius: 20rem;
+.nocontainer {
+    background: linear-gradient(to right, #13CA91,
+    #FF9472);
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
 }
 
-body {
-    background: #13ca91;
+.nocontainer h1 {
+    font-size: 7rem;
 }
 
-body:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 1200px;
-    height: 1200px;
-    background: #e847ae;
-    transform: skew(-40deg);
-    transform-origin:top;
-    z-index: -1;
+.digcontainer {
+    background: #13CA91;
 }
 
-.Aboutcontainer {
-    max-width: 1100px;
+.nigcontainer {
+    width: 60%;
     margin: 0 auto;
-    padding: 0 3rem;
-    margin-top: 4rem;
+    background: #13CA91;
+}
+
+.sec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #13CA91;
+}
+
+.sec1 h2 {
     text-align: center;
-}
-
-h1 {
+    font-size: 50px;
     color: #fff;
-    font-size: 5rem;
-    font-weight: 700;
-    letter-spacing: 8px;
-    margin-bottom: 2rem;
-    font-family: 'Poiret One', cursive;
 }
 
-.AboutImage {
-    margin-top: 5rem;
-    margin-bottom: 6rem;
-}
-
-.Aboutcontainer p {
+.sec1 p {
+    text-align: center;
     color: #fff;
-    padding: 5rem;
 }
 
-@media screen and (max-width:768px){
-    .Aboutcontainer {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
+.sec1 i {
+    font-size: 50px;
+    padding: 20px;
+    color: #fff;
+}
+
+.sec2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #13CA91;
+}
+
+.sec2 h2 {
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+
+.sec2 p {
+    text-align: center;
+    color: #fff;
+}
+
+.sec2 i {
+    font-size: 50px;
+    padding: 20px;
+    color: #fff;
+}
+
+.sec3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #13CA91;
+}
+
+.sec3 h2 {
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+
+.sec3 p {
+    text-align: center;
+    color: #fff;
+}
+
+.sec3 i {
+    font-size: 50px;
+    padding: 20px;
+    color: #fff;
+}
+
+.sec3 h3 {
+    color: #fff;
+    padding: 10px;
+}
+
+.sec3 a {
+    color: #E847AE;
+}
+
+.sec3 a:hover {
+    color: #931265;
 }
