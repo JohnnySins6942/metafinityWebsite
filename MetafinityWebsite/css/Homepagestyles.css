@@ -344,7 +344,35 @@
     border-radius: 5px;
 }
 
+/* Partner */
 
+.Partner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #13ca91;
+}
+
+.Partnercont {
+    width: 50%;
+}
+
+.Partnercont h1 {
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.Partnercont p {
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.ROADMPA {
+    height: 50px;
+}
 /* Phone */
 
 @media screen and (max-width:768px){
@@ -411,6 +439,12 @@
         padding-right: 0px;
         padding-bottom: 30px;
     }
+
+    .CONT2 {
+        display: flex;
+        justify-content: center;
+    }
+    
 }
   
 
