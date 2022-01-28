@@ -69,6 +69,7 @@ nav{
     font-size: 16px;
     position: relative;
     display: inline-block;
+    padding-bottom: 10px;
 }
 
 .nav-links span:hover{
@@ -78,9 +79,10 @@ nav{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0);
+    background: linear-gradient(to top, #3B27BA,
+        #E847AE);
     background: blur(5px);
-    min-width: 160px;
+    max-width: 100px;
     z-index: 1000000;
 }  
 
