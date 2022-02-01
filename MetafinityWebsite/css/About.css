@@ -5,8 +5,7 @@
 }
 
 .nocontainer {
-    background: linear-gradient(to right, #13CA91,
-    #FF9472);
+    background: #13CA91;
     height: 15rem;
     display: flex;
     justify-content: center;
