@@ -1,5 +1,20 @@
 
 
 .contact-section {
-    background: url(".\images\he.jpg") no-repeat center;
+    background: linear-gradient(to right, #e847ae,
+    #3B27BA);
+    background-size: cover;
+    padding: 40px 0;
+}
+
+.contact-section h1 {
+    text-align: center;
+    color: #ddd;
+}
+
+.border {
+    width: 100px;
+    height: 10px;
+    background: #34495e;
+    margin: 40px auto;
 }
