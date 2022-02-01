@@ -323,6 +323,10 @@
       text-decoration: none;
   }
 
+.Roadmap {
+    position: relative;
+}
+
 .Roadmapfatcont {
     width: 50%;
     height: 30rem;
@@ -342,6 +346,27 @@
 
 .imgco img {
     border-radius: 5px;
+}
+
+.wing {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wing svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 160px;
+}
+
+.wing .shape-fill {
+    fill: #13ca91;
 }
 
 /* Partner */
