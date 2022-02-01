@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MetaverseProject</title>
     <link rel="stylesheet" href=".\css\style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap" rel="stylesheet">
     <link href=".\css\all.min.css" rel="stylesheet">
     <link href=".\css\fontawesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href=".\css\Demo.css">
@@ -25,10 +27,17 @@
             <a href="index.html" class="Jojo"><h4>Metafinity</h4></a>
         </div>
         <ul class="nav-links">
-            <li><a href="Team.html">Team</a></li>
-            <li><a href="FAQ.html">FAQ</a></li>
-            <li><a href="Roadmap.html">Roadmap</a></li>
+            <li><div class="dropdown">
+                    <span class="dropdown-btn">About Us</span>
+                    <div class="dropdown-content">
+                        <a href="FAQ.html">FAQ</a>
+                        <a href="About.html">About Us</a>
+                    </div>
+                </div>
+            </li>
             <li><a href="Demo.html">Demo</a></li>
+            <li><a href="Roadmap.html">Roadmap</a></li>
+            <li><a href="Team.html">Team</a></li>
         </ul>
         <div class="burger">
             <div class="line1"></div>
@@ -128,13 +137,7 @@
                 <h2>Quick Links</h2>
                 <ul>
                     <li><a href="About.html">About</a></li>
-                    <li><div class="dropdown">
-                        <span class="dropdown-btn">About Us</span>
-                        <div class="dropdown-content">
-                            <a href="FAQ.html">FAQ</a>
-                            <a href="About.html">About Us</a>
-                        </div>
-                    </div></li>
+                    <li><a href="FAQ.html">FAQ</a></li>
                     <li><a href="PrivacyPolicy.html">Privacy Policy</a></li>
                     <li><a href="Terms&Conditions.html">Terms & Conditions</a></li>
                 </ul>
