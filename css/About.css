@@ -6,7 +6,7 @@
 
 .nocontainer {
     background: #13CA91;
-    height: 15rem;
+    height: 60rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,6 +19,7 @@
 
 .digcontainer {
     background: #13CA91;
+    height: 1500px;
 }
 
 .nigcontainer {
@@ -50,67 +51,4 @@
     font-size: 50px;
     padding: 20px;
     color: #fff;
-}
-
-.sec2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    background: #13CA91;
-}
-
-.sec2 h2 {
-    text-align: center;
-    font-size: 50px;
-    color: #fff;
-}
-
-.sec2 p {
-    text-align: center;
-    color: #fff;
-}
-
-.sec2 i {
-    font-size: 50px;
-    padding: 20px;
-    color: #fff;
-}
-
-.sec3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    background: #13CA91;
-}
-
-.sec3 h2 {
-    text-align: center;
-    font-size: 50px;
-    color: #fff;
-}
-
-.sec3 p {
-    text-align: center;
-    color: #fff;
-}
-
-.sec3 i {
-    font-size: 50px;
-    padding: 20px;
-    color: #fff;
-}
-
-.sec3 h3 {
-    color: #fff;
-    padding: 10px;
-}
-
-.sec3 a {
-    color: #E847AE;
-}
-
-.sec3 a:hover {
-    color: #931265;
 }

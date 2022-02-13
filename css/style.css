@@ -116,7 +116,7 @@ nav{
     }
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:991px){
     body{
         overflow-x: hidden;
     }
@@ -247,6 +247,7 @@ nav{
 .quickLinks {
     position: relative;
     width: 25%;
+    padding-top: 10px;
 }
 
 .quickLinks ul li {
